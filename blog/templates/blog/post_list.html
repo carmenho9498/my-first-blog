@@ -7,7 +7,7 @@
                 {{ post.published_date }}
             </div>
             <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
-            <h3>By <a href="{% url 'user_post_list' pk=post.author.pk %}">{{ post.author }}</a></h3>
+            <h3><a href="{% url 'user_post_list' pk=post.author.pk %}">{{ post.author }}</a></h3>
             {% if post.picture_URL %}
                 <img src="{{ post.picture_URL }}" />
             {% endif %}
