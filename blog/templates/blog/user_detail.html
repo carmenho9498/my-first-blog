@@ -1,5 +1,9 @@
 {% extends 'blog/base.html' %}
 
+{% block title %}
+{{ author.get_username }}'s Posts
+{% endblock %}
+
 {% block content %}
     {% for post in posts %}
         <div class="post">
