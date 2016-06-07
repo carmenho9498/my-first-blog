@@ -8,6 +8,7 @@
         <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="{% static 'css/blog.css' %}">
     </head>
+
     <body>
         <div class="page-header">
             {% if user.is_authenticated %}
@@ -15,6 +16,16 @@
             {% endif %}
             <h1><a href="/">Ensata</a></h1>
         </div>
+
+        <ul>
+            <li><a class="active" href="#home">WOMEN</a></li>
+            <li><a href="#news">NEWS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <li><a href="#about">ABOUT</a></li>
+        </ul>
+    <body>
+
+    </body>
         <div class="content container">
             <div class="row">
                 <div class="col-md-8">
