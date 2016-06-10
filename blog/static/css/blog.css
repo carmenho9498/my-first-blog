@@ -58,7 +58,7 @@ h1, h2, h3, h4 {
     margin-bottom: 70px;
     margin-right: 70px;
     float: left;
-    margin: 0 1.5%;
+    margin: 0 7%;
     width: 30%;
 }
 
@@ -84,7 +84,7 @@ ul {
 }
 
 li {
-    float: centerS;
+    float: center;
 }
 
 li a {
