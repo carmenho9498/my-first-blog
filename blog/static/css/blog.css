@@ -24,11 +24,11 @@
     text-decoration: underline;
 }
 
-.content{
-    padding:10px;
-    padding-bottom:45px;   /* Height+padding(top and botton) of the footer */
-    text-align: left; 
- }
+.content {
+    margin-left: 40px;
+    padding-bottom: 45px;
+    text-align: left;
+}
 
 h1, h2, h3, h4 {
     font-family: 'Quicksand', sans-serif;
@@ -56,11 +56,15 @@ h1, h2, h3, h4 {
 
 .post {
     margin-bottom: 70px;
+    margin-right: 70px;
+    float: left;
+    margin: 0 1.5%;
+    width: 30%;
 }
 
 .post img {
-    max-height: 300px;
-    max-width: 300px;
+    height: 300px;
+    width: 200px;
 }
 
 .post h1 a, .post h1 a:visited {
@@ -68,7 +72,7 @@ h1, h2, h3, h4 {
 }
 
 .comment {
-    margin: 20px, 0px, 100px, 20px;
+    margin: 20px, 0px, 20px, 20px;
 }
 
 ul {
@@ -91,29 +95,9 @@ li a {
     text-align: center;
     padding: 16px 16px;
     text-decoration: none;
+
 }
 
 li a:hover {
     background-color: #33CCCC;
 }
-
-.picture {
-    background-color: #FF2929;
-    text-align: center;
-}
-
-.save {
-    float: right;
-}
-
-.post-form textarea, .post-form input {
-    width: 100%;
-}
-
-.post { 
-    margin-bottom: 100px;
-    float: left;
-    margin: 0 1.5%;
-    width: 30%; 
-}
-
