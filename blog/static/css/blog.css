@@ -33,6 +33,7 @@ h1, h2, h3, h4 {
 }
 
 .date {
+    margin-top: 20px;
     color: #828282;
 }
 
@@ -53,6 +54,10 @@ h1, h2, h3, h4 {
 
 .post {
     margin-bottom: 70px;
+    margin-right: 70px;
+    float: left;
+    margin: 0 2%;
+    width: 30%; 
 }
 
 .post img {
@@ -77,7 +82,7 @@ ul {
 }
 
 li {
-    float: center;
+    float: left;
 }
 
 li a {
