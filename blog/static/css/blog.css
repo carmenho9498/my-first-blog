@@ -26,6 +26,8 @@
 
 .content {
     margin-left: 40px;
+    padding-bottom: 45px;
+    text-align: left;
 }
 
 h1, h2, h3, h4 {
@@ -56,8 +58,8 @@ h1, h2, h3, h4 {
     margin-bottom: 70px;
     margin-right: 70px;
     float: left;
-    margin: 0 2%;
-    width: 30%; 
+    margin: 0 1.5%;
+    width: 30%;
 }
 
 .post img {
