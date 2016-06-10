@@ -55,6 +55,7 @@ h1, h2, h3, h4 {
 }
 
 .post {
+    text-align: justify;
     margin-bottom: 70px;
     margin-right: 70px;
     float: left;
